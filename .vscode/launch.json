@@ -1,0 +1,13 @@
+{
+    "name": "Run Metal App",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/metal_app",
+    "args": [],
+    "stopAtEntry": false,
+    "cwd": "${workspaceFolder}",
+    "environment": [],
+    "externalConsole": true,
+    "MIMode": "lldb",
+    
+}
