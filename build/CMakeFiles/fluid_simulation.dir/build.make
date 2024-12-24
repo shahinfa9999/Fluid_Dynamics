@@ -76,43 +76,43 @@ CMakeFiles/fluid_simulation.dir/src/main.mm.o: CMakeFiles/fluid_simulation.dir/f
 CMakeFiles/fluid_simulation.dir/src/main.mm.o: /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm
 CMakeFiles/fluid_simulation.dir/src/main.mm.o: CMakeFiles/fluid_simulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fluid_simulation.dir/src/main.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fluid_simulation.dir/src/main.mm.o -MF CMakeFiles/fluid_simulation.dir/src/main.mm.o.d -o CMakeFiles/fluid_simulation.dir/src/main.mm.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fluid_simulation.dir/src/main.mm.o -MF CMakeFiles/fluid_simulation.dir/src/main.mm.o.d -o CMakeFiles/fluid_simulation.dir/src/main.mm.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm
 
 CMakeFiles/fluid_simulation.dir/src/main.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fluid_simulation.dir/src/main.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm > CMakeFiles/fluid_simulation.dir/src/main.mm.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm > CMakeFiles/fluid_simulation.dir/src/main.mm.i
 
 CMakeFiles/fluid_simulation.dir/src/main.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fluid_simulation.dir/src/main.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm -o CMakeFiles/fluid_simulation.dir/src/main.mm.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm -o CMakeFiles/fluid_simulation.dir/src/main.mm.s
 
 CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o: CMakeFiles/fluid_simulation.dir/flags.make
 CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o: /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp
 CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o: CMakeFiles/fluid_simulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o -MF CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o.d -o CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o -MF CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o.d -o CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp
 
 CMakeFiles/fluid_simulation.dir/src/simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fluid_simulation.dir/src/simulation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp > CMakeFiles/fluid_simulation.dir/src/simulation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp > CMakeFiles/fluid_simulation.dir/src/simulation.cpp.i
 
 CMakeFiles/fluid_simulation.dir/src/simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fluid_simulation.dir/src/simulation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp -o CMakeFiles/fluid_simulation.dir/src/simulation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp -o CMakeFiles/fluid_simulation.dir/src/simulation.cpp.s
 
 CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o: CMakeFiles/fluid_simulation.dir/flags.make
 CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o: /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp
 CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o: CMakeFiles/fluid_simulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o -MF CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o.d -o CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o -MF CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o.d -o CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp
 
 CMakeFiles/fluid_simulation.dir/src/rendering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fluid_simulation.dir/src/rendering.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp > CMakeFiles/fluid_simulation.dir/src/rendering.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp > CMakeFiles/fluid_simulation.dir/src/rendering.cpp.i
 
 CMakeFiles/fluid_simulation.dir/src/rendering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fluid_simulation.dir/src/rendering.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp -o CMakeFiles/fluid_simulation.dir/src/rendering.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp -o CMakeFiles/fluid_simulation.dir/src/rendering.cpp.s
 
 # Object files for target fluid_simulation
 fluid_simulation_OBJECTS = \
