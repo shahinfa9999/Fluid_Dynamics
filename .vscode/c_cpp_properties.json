@@ -1,22 +1,49 @@
+// filepath: /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/.vscode/c_cpp_properties.json
+
 {
+
     "configurations": [
+
         {
+
             "name": "Mac",
+
             "includePath": [
+
                 "${workspaceFolder}/**",
-                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework/Headers",
-                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Headers",
-                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"
+
+                "${workspaceFolder}/include",
+
+                "${workspaceFolder}/metal-cpp/Metal",
+
+                "${workspaceFolder}/metal-cpp/Foundation",
+
+                "${workspaceFolder}/metal-cpp/QuartzCore"
+
             ],
+
             "defines": [],
+
             "macFrameworkPath": [
-                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+
+                "/System/Library/Frameworks",
+
+                "/Library/Frameworks"
+
             ],
+
             "compilerPath": "/usr/bin/clang",
+
             "cStandard": "c11",
+
             "cppStandard": "c++17",
+
             "intelliSenseMode": "macos-clang-x64"
+
         }
+
     ],
+
     "version": 4
+
 }

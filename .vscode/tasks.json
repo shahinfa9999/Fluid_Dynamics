@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Metal App",
+            "label": "build",
             "type": "shell",
             "command": "clang++",
             "args": [
@@ -10,15 +10,25 @@
                 "-framework", "Cocoa",
                 "-framework", "QuartzCore",
                 "-std=c++17",
-                "-o", "metal_app",
-                "main.cpp"
+                "-o", "${workspaceFolder}/build/metal_app",
+                "${workspaceFolder}/src/main.mm",
+                "${workspaceFolder}/src/simulation.cpp",
+                "${workspaceFolder}/src/rendering.cpp",
+                "${workspaceFolder}/src/FluidSimulation.cpp",
+                "-I", "${workspaceFolder}/include",
+                "-I", "${workspaceFolder}/metal-cpp/Foundation",
+                "-I", "${workspaceFolder}/metal-cpp",
+                "-I", "${workspaceFolder}/metal-cpp/QuartzCore",
+                "-I", "${workspaceFolder}/metal-cpp/Metal",
+                "-fobjc-arc",
+                "-fmodules",
+                "-x", "objective-c++"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"],
-            "detail": "Build Metal app"
+            "problemMatcher": ["$gcc"]
         }
     ]
 }

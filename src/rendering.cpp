@@ -2,7 +2,7 @@
 
 
 
-Renderer::Renderer(void* device)
+Renderer::Renderer(MTL::Device*)
 {
     // Initialize renderer with the provided Metal device
 }

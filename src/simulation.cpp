@@ -1,10 +1,13 @@
 #include "simulation.hpp"
 
-Simulation::Simulation(void* device) : device(device) {
+
+Simulation::Simulation(MTL::Device *device)
+{
     // Initialize simulation with the provided Metal device
 }
 
-void Simulation::initializeParticles() {
+void Simulation::initializeParticles()
+{
     // Placeholder for particle initialization
 }
 
