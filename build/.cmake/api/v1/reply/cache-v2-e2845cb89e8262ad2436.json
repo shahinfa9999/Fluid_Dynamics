@@ -1232,6 +1232,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD"
+		},
+		{
+			"name" : "METALKIT_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/MetalKit.framework"
 		}
 	],
 	"kind" : "cache",

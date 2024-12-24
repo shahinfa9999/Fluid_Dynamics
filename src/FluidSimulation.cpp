@@ -1,7 +1,7 @@
 #include "FluidSimulation.hpp"
 #include <iostream>
-#include <QuartzCore/CAMediaTiming.h>
-#include <Foundation/Foundation.h>
+#include <QuartzCore/QuartzCore.hpp>
+#include <Foundation/Foundation.hpp>
 
 FluidSimulation::FluidSimulation(MTL::Device* device) {
     this->device = device;

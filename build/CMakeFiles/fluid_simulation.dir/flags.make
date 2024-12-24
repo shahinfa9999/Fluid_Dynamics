@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
 
 CXX_FLAGSarm64 =  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
 

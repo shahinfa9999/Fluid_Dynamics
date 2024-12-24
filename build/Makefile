@@ -129,29 +129,125 @@ fluid_simulation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/build
 .PHONY : fluid_simulation/fast
 
-src/main.o: src/main.mm.o
+src/Advection.o: src/Advection.cpp.o
+.PHONY : src/Advection.o
+
+# target to build an object file
+src/Advection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/Advection.cpp.o
+.PHONY : src/Advection.cpp.o
+
+src/Advection.i: src/Advection.cpp.i
+.PHONY : src/Advection.i
+
+# target to preprocess a source file
+src/Advection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/Advection.cpp.i
+.PHONY : src/Advection.cpp.i
+
+src/Advection.s: src/Advection.cpp.s
+.PHONY : src/Advection.s
+
+# target to generate assembly for a file
+src/Advection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/Advection.cpp.s
+.PHONY : src/Advection.cpp.s
+
+src/FluidSimulation.o: src/FluidSimulation.cpp.o
+.PHONY : src/FluidSimulation.o
+
+# target to build an object file
+src/FluidSimulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/FluidSimulation.cpp.o
+.PHONY : src/FluidSimulation.cpp.o
+
+src/FluidSimulation.i: src/FluidSimulation.cpp.i
+.PHONY : src/FluidSimulation.i
+
+# target to preprocess a source file
+src/FluidSimulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/FluidSimulation.cpp.i
+.PHONY : src/FluidSimulation.cpp.i
+
+src/FluidSimulation.s: src/FluidSimulation.cpp.s
+.PHONY : src/FluidSimulation.s
+
+# target to generate assembly for a file
+src/FluidSimulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/FluidSimulation.cpp.s
+.PHONY : src/FluidSimulation.cpp.s
+
+src/Pressure_Projection.o: src/Pressure_Projection.cpp.o
+.PHONY : src/Pressure_Projection.o
+
+# target to build an object file
+src/Pressure_Projection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/Pressure_Projection.cpp.o
+.PHONY : src/Pressure_Projection.cpp.o
+
+src/Pressure_Projection.i: src/Pressure_Projection.cpp.i
+.PHONY : src/Pressure_Projection.i
+
+# target to preprocess a source file
+src/Pressure_Projection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/Pressure_Projection.cpp.i
+.PHONY : src/Pressure_Projection.cpp.i
+
+src/Pressure_Projection.s: src/Pressure_Projection.cpp.s
+.PHONY : src/Pressure_Projection.s
+
+# target to generate assembly for a file
+src/Pressure_Projection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/Pressure_Projection.cpp.s
+.PHONY : src/Pressure_Projection.cpp.s
+
+src/app_delegate.o: src/app_delegate.cpp.o
+.PHONY : src/app_delegate.o
+
+# target to build an object file
+src/app_delegate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/app_delegate.cpp.o
+.PHONY : src/app_delegate.cpp.o
+
+src/app_delegate.i: src/app_delegate.cpp.i
+.PHONY : src/app_delegate.i
+
+# target to preprocess a source file
+src/app_delegate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/app_delegate.cpp.i
+.PHONY : src/app_delegate.cpp.i
+
+src/app_delegate.s: src/app_delegate.cpp.s
+.PHONY : src/app_delegate.s
+
+# target to generate assembly for a file
+src/app_delegate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/app_delegate.cpp.s
+.PHONY : src/app_delegate.cpp.s
+
+src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
-src/main.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/main.mm.o
-.PHONY : src/main.mm.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/main.i: src/main.mm.i
+src/main.i: src/main.cpp.i
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/main.mm.i
-.PHONY : src/main.mm.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/main.s: src/main.mm.s
+src/main.s: src/main.cpp.s
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/main.mm.s
-.PHONY : src/main.mm.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/rendering.o: src/rendering.cpp.o
 .PHONY : src/rendering.o
@@ -201,6 +297,30 @@ src/simulation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/simulation.cpp.s
 .PHONY : src/simulation.cpp.s
 
+src/view_delegate.o: src/view_delegate.cpp.o
+.PHONY : src/view_delegate.o
+
+# target to build an object file
+src/view_delegate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/view_delegate.cpp.o
+.PHONY : src/view_delegate.cpp.o
+
+src/view_delegate.i: src/view_delegate.cpp.i
+.PHONY : src/view_delegate.i
+
+# target to preprocess a source file
+src/view_delegate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/view_delegate.cpp.i
+.PHONY : src/view_delegate.cpp.i
+
+src/view_delegate.s: src/view_delegate.cpp.s
+.PHONY : src/view_delegate.s
+
+# target to generate assembly for a file
+src/view_delegate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_simulation.dir/build.make CMakeFiles/fluid_simulation.dir/src/view_delegate.cpp.s
+.PHONY : src/view_delegate.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +330,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fluid_simulation"
+	@echo "... src/Advection.o"
+	@echo "... src/Advection.i"
+	@echo "... src/Advection.s"
+	@echo "... src/FluidSimulation.o"
+	@echo "... src/FluidSimulation.i"
+	@echo "... src/FluidSimulation.s"
+	@echo "... src/Pressure_Projection.o"
+	@echo "... src/Pressure_Projection.i"
+	@echo "... src/Pressure_Projection.s"
+	@echo "... src/app_delegate.o"
+	@echo "... src/app_delegate.i"
+	@echo "... src/app_delegate.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -219,6 +351,9 @@ help:
 	@echo "... src/simulation.o"
 	@echo "... src/simulation.i"
 	@echo "... src/simulation.s"
+	@echo "... src/view_delegate.o"
+	@echo "... src/view_delegate.i"
+	@echo "... src/view_delegate.s"
 .PHONY : help
 
 

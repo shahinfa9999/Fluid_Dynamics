@@ -18,7 +18,9 @@
 
                 "${workspaceFolder}/metal-cpp/Foundation",
 
-                "${workspaceFolder}/metal-cpp/QuartzCore"
+                "${workspaceFolder}/metal-cpp/QuartzCore", 
+
+                "${workspaceFolder}/metal-cpp-extensions"
 
             ],
 

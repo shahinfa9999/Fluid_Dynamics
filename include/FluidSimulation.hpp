@@ -25,6 +25,7 @@ public:
 
     // Function to update the simulation
     void update();
+    
     void renderFluid();
 };
 

@@ -1,20 +1,50 @@
 [
 {
   "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
-  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/main.mm.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm",
-  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.mm",
-  "output": "CMakeFiles/fluid_simulation.dir/src/main.mm.o"
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/Advection.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/Advection.cpp",
+  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/Advection.cpp",
+  "output": "CMakeFiles/fluid_simulation.dir/src/Advection.cpp.o"
 },
 {
   "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
-  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp",
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/FluidSimulation.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/FluidSimulation.cpp",
+  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/FluidSimulation.cpp",
+  "output": "CMakeFiles/fluid_simulation.dir/src/FluidSimulation.cpp.o"
+},
+{
+  "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/Pressure_Projection.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/Pressure_Projection.cpp",
+  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/Pressure_Projection.cpp",
+  "output": "CMakeFiles/fluid_simulation.dir/src/Pressure_Projection.cpp.o"
+},
+{
+  "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/app_delegate.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/app_delegate.cpp",
+  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/app_delegate.cpp",
+  "output": "CMakeFiles/fluid_simulation.dir/src/app_delegate.cpp.o"
+},
+{
+  "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/main.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.cpp",
+  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/main.cpp",
+  "output": "CMakeFiles/fluid_simulation.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp",
+  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp",
+  "output": "CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o"
+},
+{
+  "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp",
   "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/simulation.cpp",
   "output": "CMakeFiles/fluid_simulation.dir/src/simulation.cpp.o"
 },
 {
   "directory": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/build",
-  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp",
-  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/rendering.cpp",
-  "output": "CMakeFiles/fluid_simulation.dir/src/rendering.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/include -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp -I/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/metal-cpp-extendions -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks  -objective-c++ -fobjc-arc -fmodules -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/fluid_simulation.dir/src/view_delegate.cpp.o -c /Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/view_delegate.cpp",
+  "file": "/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD/src/view_delegate.cpp",
+  "output": "CMakeFiles/fluid_simulation.dir/src/view_delegate.cpp.o"
 }
 ]

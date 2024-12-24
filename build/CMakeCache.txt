@@ -236,6 +236,9 @@ FluidSimulation_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 FluidSimulation_SOURCE_DIR:STATIC=/Users/faisalshahin/Documents/Projects/Jobs_Projects/CFD
 
+//Path to a library.
+METALKIT_LIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/MetalKit.framework
+
 
 ########################
 # INTERNAL cache entries
